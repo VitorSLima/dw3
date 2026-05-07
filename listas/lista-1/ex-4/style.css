@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.semaforo {
+  background-color: #1a1a1a;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.light {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 15px;
+  transition: all 0.3s ease;
+  box-shadow: inset 0 5px 15px rgba(0,0,0,0.5);
+}
+
+.light.red {
+  background-color: #4a0000;
+}
+
+.light.red.on {
+  background-color: #ff0000;
+  box-shadow: 0 0 30px #ff0000, inset 0 0 20px rgba(255,255,255,0.3);
+}
+
+.light.yellow {
+  background-color: #4a4a00;
+}
+
+.light.yellow.on {
+  background-color: #ffff00;
+  box-shadow: 0 0 30px #ffff00, inset 0 0 20px rgba(255,255,255,0.3);
+}
+
+.light.green {
+  background-color: #004a00;
+}
+
+.light.green.on {
+  background-color: #00ff00;
+  box-shadow: 0 0 30px #00ff00, inset 0 0 20px rgba(255,255,255,0.3);
+}
+
+.botoes {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: bold;
+  color: white;
+}
+
+#vermelho {
+  background-color: #dc3545;
+}
+
+#vermelho:hover {
+  background-color: #c82333;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(220, 53, 69, 0.4);
+}
+
+#amarelo {
+  background-color: #ffc107;
+  color: #333;
+}
+
+#amarelo:hover {
+  background-color: #e0a800;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(255, 193, 7, 0.4);
+}
+
+#verde {
+  background-color: #28a745;
+}
+
+#verde:hover {
+  background-color: #218838;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(40, 167, 69, 0.4);
+}

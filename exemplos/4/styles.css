@@ -1,0 +1,13 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+li {
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+li:hover {
+  color: red;
+}

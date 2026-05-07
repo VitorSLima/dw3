@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 24px;
+}
+
+h1 {
+  margin-bottom: 16px;
+}
+
+.campo {
+  display: block;
+  width: 260px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+}
+
+.campo.erro {
+  border-color: #d32f2f;
+  background-color: #ffebee;
+}
+
+button {
+  padding: 10px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}

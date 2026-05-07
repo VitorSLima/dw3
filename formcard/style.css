@@ -1,0 +1,172 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  padding: 30px 16px;
+}
+
+/* Container central */
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #2c3e50;
+  font-size: 1.8rem;
+}
+
+/* Formulário */
+form {
+  background-color: #fff;
+  padding: 28px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Cada campo do formulário */
+.campo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+.campo label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #2c3e50;
+}
+
+/* Inputs de texto, email e data */
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="date"] {
+  padding: 10px 12px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+  outline: none;
+}
+
+.campo input[type="text"]:focus,
+.campo input[type="email"]:focus,
+.campo input[type="date"]:focus {
+  border-color: #3498db;
+}
+
+/* Input file */
+.campo input[type="file"] {
+  font-size: 0.95rem;
+  padding: 6px 0;
+  cursor: pointer;
+}
+
+/* Classe de erro: borda vermelha nos inputs de texto/email/data */
+.campo input.input-erro {
+  border-color: #e74c3c;
+}
+
+/* Mensagem de erro abaixo do campo */
+.erro {
+  color: #e74c3c;
+  font-size: 0.82rem;
+  margin-top: 4px;
+  min-height: 16px;
+}
+
+/* Botão */
+#btn-gerar {
+  width: 100%;
+  padding: 12px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-top: 6px;
+}
+
+#btn-gerar:hover {
+  background-color: #2980b9;
+}
+
+/* Área do crachá */
+#area-cracha {
+  margin-top: 36px;
+}
+
+/* Card do crachá */
+.cracha {
+  background-color: #fff;
+  border: 3px solid #3498db;
+  border-radius: 16px;
+  padding: 28px 24px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(52, 152, 219, 0.2);
+}
+
+/* Título do crachá */
+.cracha h2 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #3498db;
+  margin-bottom: 16px;
+}
+
+/* Foto no crachá */
+.cracha img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #3498db;
+  margin-bottom: 16px;
+}
+
+/* Nome no crachá */
+.cracha .cracha-nome {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 4px;
+}
+
+/* Profissão no crachá */
+.cracha .cracha-profissao {
+  font-size: 1rem;
+  color: #7f8c8d;
+  margin-bottom: 14px;
+}
+
+/* Linha divisória */
+.cracha hr {
+  border: none;
+  border-top: 1px solid #ecf0f1;
+  margin-bottom: 14px;
+}
+
+/* Informações extras (data e email) */
+.cracha .cracha-info {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+.cracha .cracha-info span {
+  font-weight: 600;
+  color: #2c3e50;
+}

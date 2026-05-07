@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CineTickets - Checkout</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🎬 CineTickets</h1>
+    <p>Escolha seus ingressos e finalize a compra</p>
+  </header>
+
+  <main>
+    <section class="filmes">
+
+      <!-- Filme 1 -->
+      <div class="card" data-preco="20.00">
+        <img src="imagens/deadpool e wolverine.avif" alt="Deadpool e Wolverine" />
+        <div class="info">
+          <h2>Deadpool e Wolverine</h2>
+          <p class="genero">Ação / Comédia</p>
+          <p class="preco">R$ 20,00</p>
+        </div>
+        <div class="controle">
+          <button class="btn-menos">−</button>
+          <span class="quantidade">0</span>
+          <button class="btn-mais">+</button>
+        </div>
+      </div>
+
+      <!-- Filme 2 -->
+      <div class="card" data-preco="18.00">
+        <img src="imagens/panico 7.jpg" alt="Pânico 7" />
+        <div class="info">
+          <h2>Pânico 7</h2>
+          <p class="genero">Terror / Suspense</p>
+          <p class="preco">R$ 18,00</p>
+        </div>
+        <div class="controle">
+          <button class="btn-menos">−</button>
+          <span class="quantidade">0</span>
+          <button class="btn-mais">+</button>
+        </div>
+      </div>
+
+      <!-- Filme 3 -->
+      <div class="card" data-preco="22.00">
+        <img src="imagens/spider-man brand new day.jpg" alt="Spider-Man: Brand New Day" />
+        <div class="info">
+          <h2>Spider-Man: Brand New Day</h2>
+          <p class="genero">Ação / Aventura</p>
+          <p class="preco">R$ 22,00</p>
+        </div>
+        <div class="controle">
+          <button class="btn-menos">−</button>
+          <span class="quantidade">0</span>
+          <button class="btn-mais">+</button>
+        </div>
+      </div>
+
+      <!-- Filme 4 -->
+      <div class="card" data-preco="16.00">
+        <img src="imagens/superman.png" alt="Superman" />
+        <div class="info">
+          <h2>Superman</h2>
+          <p class="genero">Ação / Ficção Científica</p>
+          <p class="preco">R$ 16,00</p>
+        </div>
+        <div class="controle">
+          <button class="btn-menos">−</button>
+          <span class="quantidade">0</span>
+          <button class="btn-mais">+</button>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Área do total -->
+    <div class="total-area">
+      <span class="total-label">Valor Total:</span>
+      <span class="total-valor" id="total">R$ 0,00</span>
+    </div>
+
+    <button class="btn-finalizar" id="btn-finalizar">Finalizar Compra</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

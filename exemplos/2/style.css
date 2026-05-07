@@ -1,0 +1,12 @@
+.card {
+    width: 280px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.card.destaque {
+    border-color: blue;
+    transform: scale(1.05);
+}

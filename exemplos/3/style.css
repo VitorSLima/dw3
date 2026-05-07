@@ -1,0 +1,9 @@
+.item {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.item.marcado {
+   font-weight: bold;
+   text-decoration: underline;
+}
