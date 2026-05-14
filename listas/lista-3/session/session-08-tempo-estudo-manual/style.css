@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 60px;
+  background-color: #f0f2f5;
+}
+
+h1 {
+  margin-bottom: 12px;
+}
+
+.sub {
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+}
+
+button {
+  padding: 14px 28px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #8338ec;
+  color: white;
+  margin: 8px;
+}
+
+button:hover {
+  filter: brightness(0.95);
+}
+
+#mensagem {
+  font-size: 1.25rem;
+  color: #333;
+  margin-top: 28px;
+}
+
+#segundos {
+  font-weight: bold;
+  color: #8338ec;
+  font-size: 1.5rem;
+}

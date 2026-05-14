@@ -2,7 +2,7 @@
 const contadorSalvo = sessionStorage.getItem("cliques")
 
 if (contadorSalvo) {
-  document.getElementById("total").textContent = contadorSalvo
+  document.getElementById("total").innerText = contadorSalvo
 }
 
 // Incrementa o contador e salva no sessionStorage
@@ -12,5 +12,5 @@ function clicar() {
 
   sessionStorage.setItem("cliques", novoTotal)
 
-  document.getElementById("total").textContent = novoTotal
+  document.getElementById("total").innerText = novoTotal
 }

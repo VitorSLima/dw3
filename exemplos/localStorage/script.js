@@ -11,12 +11,12 @@ function salvar() {
 
   localStorage.setItem("nome", nome)
 
-  document.getElementById("mensagem").textContent = "Nome salvo: " + nome
+  document.getElementById("mensagem").innerText = "Nome salvo: " + nome
 }
 
 // Apaga o nome do localStorage
 function apagar() {
   localStorage.removeItem("nome")
 
-  document.getElementById("mensagem").textContent = "Nome apagado!"
+  document.getElementById("mensagem").innerText = "Nome apagado!"
 }

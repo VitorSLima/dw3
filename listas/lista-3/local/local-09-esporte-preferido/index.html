@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>localStorage — Esporte preferido</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Esporte preferido</h1>
+
+  <label for="selectEsporte">Escolha:</label>
+  <select id="selectEsporte" onchange="salvarEsporte()">
+    <option value="">— selecione —</option>
+    <option value="futebol">Futebol</option>
+    <option value="volei">Vôlei</option>
+    <option value="basquete">Basquete</option>
+    <option value="natacao">Natação</option>
+  </select>
+
+  <p id="mensagem"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>

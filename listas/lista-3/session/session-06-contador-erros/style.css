@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 60px;
+  background-color: #f0f2f5;
+}
+
+h1 {
+  margin-bottom: 24px;
+}
+
+button {
+  padding: 14px 28px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 8px;
+}
+
+button.erro {
+  background-color: #e63946;
+  color: white;
+}
+
+button.acerto {
+  background-color: #2a9d8f;
+  color: white;
+}
+
+button:hover {
+  filter: brightness(0.95);
+}
+
+#mensagem {
+  font-size: 1.25rem;
+  color: #333;
+  margin-top: 28px;
+}
+
+#erros {
+  font-weight: bold;
+  color: #e63946;
+  font-size: 1.5rem;
+}
